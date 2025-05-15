@@ -1,0 +1,28 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "es-MX": {
+          "summary": "Escuchá La Polla Radio en vivo",
+          "examplePhrases": [
+            "Alexa, abre la polla radio"
+          ],
+          "name": "La Polla Radio",
+          "description": "Transmisión en vivo de La Polla Radio desde tu dispositivo Alexa."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Invocá la skill con 'Alexa, abre la polla radio'.",
+      "category": "MUSIC_AND_AUDIO",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
